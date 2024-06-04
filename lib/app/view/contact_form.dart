@@ -8,8 +8,8 @@ class ContactForm extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Formulário de Contato'),
-      ) ,
+        backgroundColor: Colors.blue,
+      ),
     );
-
   }
 }
