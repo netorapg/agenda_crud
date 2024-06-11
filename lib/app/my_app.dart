@@ -6,6 +6,8 @@ class MyApp extends StatelessWidget {
   static const HOME = '/';
   static const CONTACT_FORM = 'contact-form';
 
+  const MyApp({super.key});
+
 
 
   // This widget is the root of your application.
@@ -17,8 +19,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
      routes: {
-      HOME:(context) => ContactList(),
-      CONTACT_FORM:(context) => ContactForm(),
+      HOME:(context) => const ContactList(),
+      CONTACT_FORM:(context) => const ContactForm(),
      },
     );
   }

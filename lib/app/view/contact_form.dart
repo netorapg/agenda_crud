@@ -7,7 +7,7 @@ class ContactForm extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Formulário de Contato'),
+        title: const Text('Formulário de Contato'),
         backgroundColor: Colors.blue,
       ),
     );

@@ -23,6 +23,8 @@ class ContactList extends StatelessWidget {
     },
   ];
 
+  const ContactList({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -48,7 +50,7 @@ class ContactList extends StatelessWidget {
             ),
             title: Text(contato['nome']!),
             subtitle: Text(contato['telefone']!),
-            trailing: Container(
+            trailing: const SizedBox(
               width: 100,
               child: Row(
                 children: [
